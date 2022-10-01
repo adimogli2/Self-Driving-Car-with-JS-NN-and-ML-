@@ -104,7 +104,7 @@ class Car{
         if(this.damaged){
             ctx.fillStyle="gray";
         }else{
-            ctx.fillStyle="black";
+            ctx.fillStyle="white";
         }
         ctx.beginPath();
         ctx.moveTo(this.polygon[0].x,this.polygon[0].y);

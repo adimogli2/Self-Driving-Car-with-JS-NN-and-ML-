@@ -1,9 +1,11 @@
 body{
     margin:0;
-    background: darkgray;
+    /* background color */
+    background: lightgreen;
     overflow: hidden;
     text-align: center;
 }
 #myCanvas{
-    background: lightgray;
+    /* road color */
+    background: black;
 }
