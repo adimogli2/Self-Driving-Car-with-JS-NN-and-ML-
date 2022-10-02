@@ -2,9 +2,9 @@ class Sensor{
     constructor(car){
         this.car=car;
         this.rayCount=5;
-        this.rayLength=100;
+        this.rayLength=200;
         //change raySpread to angle you want to detect (pi = 180 degrees from the top part of the car)
-        this.raySpread=Math.PI/4;
+        this.raySpread=Math.PI/2;
 
         this.rays=[];
         this.readings=[];
